@@ -1,0 +1,104 @@
+//class held on 27/08/2024
+/*
+class xyz{
+    fun prod(x: Int ,y: Int)
+    {
+        var z= x*y
+        println("The product of the values $x and $y is $z")
+    }
+    
+}
+
+fun main()
+{
+    var a =xyz()
+    a.prod(3,4)
+}
+
+*/
+
+/*
+class introduction{
+    var name : String;
+    var age : Int;
+    constructor(a : String , b: Int)
+    {
+        this.name = a
+        this.age = b
+    }
+    constructor(c: String)                            //CONSTRUCTORS
+    {
+        this.name = c
+        age = 0
+    }
+    constructor()
+    {
+        name = "abc"
+        age = 19
+    }
+    fun intro()
+    {
+        println("My name is $name and age is $age")
+    }
+
+}
+fun main()
+{
+    var a = introduction("prince",20)
+    a.intro()
+    var b = introduction("pushkar")
+    b.intro()
+    var c = introduction()
+    c.intro()
+}
+*/
+
+/*
+class introduction{
+    var name : String;
+    var age : Int;
+    constructor(a : String, b : Int )
+    {
+        this.name = a
+        this.age = b
+        
+    }
+    fun printStat()
+    {
+        println("The name of the student is $name and he/she is $age years old")
+    }
+}
+
+fun main()
+{
+    var x : String;
+    var y : Int;
+    
+}
+*/
+
+// primary constructor
+/*
+class Person( var name : String , var age : Int )
+{
+    constructor(x : String): this()
+    {
+        this.name=x
+        this.age = 0
+    }
+    constructor():this("nayak",21)
+    fun intro()
+    {
+        println("The name of me is $name and age is $age")
+    }
+}
+fun main()
+{
+    var a = Person("uiya",23)
+    a.intro()
+    var b = Person()
+    b.intro()
+    var c = Person("Heena")
+    c.intro()
+}
+*/
